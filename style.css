@@ -210,9 +210,9 @@ form {
   display: flex;
   flex-direction: column; 
   padding: 10px;
-  background-color: rgb(179, 159, 123);
-  border: solid black 2px;
-  border-radius: 5px;
+  background-color: rgba(212, 207, 207, 0.644);
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
   width: 1000px;
   
 
@@ -256,14 +256,21 @@ p{
 
 
 
+/* page de connexion */
+
+
+
+
+
+
 /* footer */
 
 footer {
   text-align: center;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
   color: black;
-  background-color: bisque;
+  background-color: rgba(214, 122, 9, 0.288);
   border: dashed 2px black;
 }
 
