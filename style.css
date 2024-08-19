@@ -31,6 +31,15 @@ a:hover {
   color: chartreuse;
 }
 
+h1 {
+  
+  color: rgb(32, 30, 30);
+  font-size: 70px;
+}
+
+
+/*barre de navigation */
+
 header {
   position: relative;
   padding: 0 2rem;
@@ -154,7 +163,8 @@ header {
 
 .index {
  
-  margin: 3rem;
+  margin: 1rem;
+  height: 100vh;
   background-color: rgba(83, 67, 67, 0.644);
   border-radius: 10px;
   box-shadow: 5px 5px 15px black;
@@ -167,8 +177,8 @@ header {
 
 .index img {
 
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   margin: 1rem;
   object-fit: cover;
   border-radius: 50%;
@@ -354,12 +364,133 @@ p {
 /* page d'inscription */
 
 .content2  {
-  flex-grow: 1;
+  
   backdrop-filter: blur(10px);
 }
 
+/* page a propos */
+
+.apropos {
+  width: 100% auto;
+  margin: 1rem;
+  background-color: rgba(83, 67, 67, 0.644);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+  backdrop-filter: blur(15px);
+  border: solid black 1px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.apropos img {
+
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  border: solid black 1px;
+
+}
+
+.apropos h2{
+  margin: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ .apropos p{
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 1rem;
+  color: #e3e3e9;
+
+ }
+
+ .apropos2 {
+ 
+
+  width: 100% auto;
+  margin: 1rem;
+  background-color: rgba(83, 67, 67, 0.644);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+  backdrop-filter: blur(15px);
+  border: solid black 1px;
+  
+
+}
+
+.apropos2 img {
+
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 50%;
+  float: right;
+  shape-outside: margin-box;
+  border: solid black 1px;
+
+}
+
+.apropos2 h2{
+  margin: 1rem;
+
+}
+
+ .apropos2 p{
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 1rem;
+  color: #e3e3e9;
+
+ }
 
 
+ .apropos3 {
+  width: 100% auto;
+  margin: 1rem;
+  background-color: rgba(83, 67, 67, 0.644);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+  backdrop-filter: blur(15px);
+  border: solid black 1px;
+  justify-content: center;
+  text-align: center;
+ 
+
+}
+
+.apropos3 img {
+
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+  border-radius: 50%;
+  shape-outside: margin-box;
+  border: solid black 1px;
+  float:left;
+  
+
+}
+
+.apropos3 h2{
+  margin: 1rem;
+
+}
+
+ .apropos3 p{
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 1rem;
+  color: #e3e3e9;
+
+ }
 
 /* footer */
 
@@ -410,6 +541,15 @@ footer {
 
 @media (max-width: 990px) {
   img {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 990px) {
+  .content {
     width: 100%;
     text-align: center;
     align-items: center;
