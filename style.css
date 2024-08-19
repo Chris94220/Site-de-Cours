@@ -240,7 +240,7 @@ h1 {
   backdrop-filter: blur(15px);
   box-shadow: 5px 5px 15px black;
 }
-/* page formulaire */
+/* page contact */
 
 .formulaire {
   display: flex;
@@ -322,6 +322,12 @@ p {
   text-align: center;
 }
 
+.content3  {
+  
+  backdrop-filter: blur(10px);
+}
+
+
 /* page de connexion */
 
 .connexion form {
@@ -342,6 +348,12 @@ p {
 
 }
 .content1  {
+  flex-grow: 1;
+  backdrop-filter: blur(10px);
+}
+/* page d'inscription */
+
+.content2  {
   flex-grow: 1;
   backdrop-filter: blur(10px);
 }
