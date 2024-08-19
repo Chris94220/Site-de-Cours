@@ -150,7 +150,48 @@ header {
   display: none;
 }
 
-/* Contenue des page */
+/* page Index */
+
+.index {
+ 
+  margin: 3rem;
+  background-color: rgba(83, 67, 67, 0.644);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+  backdrop-filter: blur(15px);
+  border: solid black 1px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.index img {
+
+  width: 600px;
+  height: 600px;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  border: solid black 1px;
+
+}
+
+.index h2{
+  margin-bottom: 10px;
+
+}
+
+ .index p{
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 1rem;
+  color: #e3e3e9;
+
+ }
+
+/* Page Media */
 
 h1 {
   text-align: center;
@@ -166,6 +207,7 @@ h1 {
 .media p {
   color: black;
   font-weight: bold;
+  margin: 2rem;
 }
 
 .media img {
@@ -181,18 +223,22 @@ h1 {
   border: solid black 2px;
   margin: 1rem;
   backdrop-filter: blur(15px);
+  box-shadow: 5px 5px 15px black;
+  
 }
 #div2 {
   background-color: rgba(255, 255, 0, 0.164);
   border: solid black 2px;
   margin: 1rem;
   backdrop-filter: blur(15px);
+  box-shadow: 5px 5px 15px black;
 }
 #div3 {
   background-color: rgba(38, 38, 223, 0.247);
   border: solid black 2px;
   margin: 1rem;
   backdrop-filter: blur(15px);
+  box-shadow: 5px 5px 15px black;
 }
 /* page formulaire */
 
@@ -202,6 +248,8 @@ h1 {
   justify-content: center;
   margin: 2rem;
   font-weight: bold;
+  
+  
 }
 
 form {
@@ -212,6 +260,9 @@ form {
   border-radius: 10px;
   backdrop-filter: blur(15px);
   width: 1000px;
+  box-shadow: 5px 5px 15px black;
+  border: solid black 1px;
+  width: 100vh;
 }
 
 h2 {

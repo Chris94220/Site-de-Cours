@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
- 
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +16,7 @@
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />   
+    />
     <title>Site de Cours</title>
   </head>
   <body>
@@ -32,57 +32,107 @@
         </ul>
 
         <div class="buttons">
-          <a href="#" class="action-button pro">S'inscrire</a>
+          <a href="inscription.html" class="action-button pro">S'inscrire</a>
           <a href="connexion.html" class="action-button">Se Connecter</a>
         </div>
 
         <div class="burger-menu-button">
-
           <i class="fa-solid fa-bars"></i>
         </div>
-
       </div>
 
       <div class="burger-menu">
-
         <ul class="links">
           <li><a href="index.html">Acceuil</a></li>
           <li><a href="media.html">Media</a></li>
           <li><a href="apropos.html">A Propos</a></li>
           <li><a href="contact.html">Contact</a></li>
 
-
           <div class="divider"></div>
 
-
           <div class="button-burger-menu">
-            <a href="#" class="action-button pro">S'inscrire</a>
+            <a href="inscription.html" class="action-button pro">S'inscrire</a>
             <a href="connexion.html" class="action-button">Se Connecter</a>
           </div>
         </ul>
       </div>
     </header>
 
-   
-    <div class="content">  <h1>Acceuil</h1>   </div>
+    <div class="content"><h1>Acceuil</h1></div>
 
-    <footer id="footer">Copyright EMILE PEREIRA Christopher 2024 </footer>
+    <div class="index">
+      <img
+        src="https://images.pexels.com/photos/267569/pexels-photo-267569.jpeg"
+      />
+
+      <h2>Bienvenue sur cour en ligne</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nulla
+        explicabo vero neque rem! Fugiat quos doloribus expedita vel odio eaque
+        ducimus? Atque quisquam non ex qui vitae suscipit Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Quam, facere laboriosam? Quibusdam
+        odio labore eaque quo nemo cupiditate laudantium perspiciatis
+        consequuntur quis. Nam, architecto quae odio dolore eum ullam ducimus!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, eius
+        quidem quam vel maiores error, distinctio perspiciatis architecto
+        incidunt ab quibusdam a suscipit facere tenetur eaque cumque, corporis
+        laudantium! Libero. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Quam sit sunt provident illo ab ea nobis illum dolore quod quas
+        eum impedit, voluptate vitae distinctio ullam consequatur, a voluptatum
+        suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <p>
+        <br />Aut provident, harum natus debitis, consectetur, modi dolores esse
+        est vitae sunt doloribus vel. Atque suscipit ipsam sunt perferendis,
+        facere voluptatibus fugit? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nobis maiores illo modi neque qui perferendis tempore
+        alias laboriosam pariatur a! Vel dicta culpa recusandae iusto nemo quasi
+        neque facere? Maxime. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Numquam consequuntur enim, asperiores vitae quaerat aut corporis
+        nam possimus excepturi iusto dignissimos alias officiis earum ad aperiam
+        atque nihil praesentium laudantium. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Explicabo officia quisquam vel ex
+        excepturi deleniti, consectetur quo eaque provident sunt blanditiis
+        doloremque sint magni soluta exercitationem eligendi impedit illo!
+        Pariatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Tempore pariatur nobis rerum commodi hic aut laudantium, libero tempora
+        a? Laudantium impedit illum repudiandae eius voluptates nisi totam rerum
+        cum perferendis. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Optio doloribus enim corporis, et dolore ab ut suscipit vero.
+        Repellat, ipsam incidunt deserunt rerum quae id enim neque architecto
+        quam molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Obcaecati iusto assumenda saepe nesciunt illo aspernatur, repellendus
+        sit eius earum est voluptas necessitatibus odio nihil nulla tempore
+        officia distinctio dolor ipsa.
+      </p>
+      <br />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam harum
+        repellendus architecto sunt, non porro eum fugiat quis voluptas natus ea
+        eaque quas. Tenetur, quisquam veritatis excepturi impedit sed
+        voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Labore soluta, libero totam perspiciatis sunt ipsa eaque ab tenetur
+        officia reiciendis eius fuga quidem ad id. Blanditiis, necessitatibus
+        vero. Repudiandae, hic.
+      </p>
+    </div>
+    <footer id="footer">Copyright EMILE PEREIRA Christopher 2024</footer>
 
     <script>
+      const burgerMenuButton = document.querySelector(".burger-menu-button");
+      const burgerMenuButtonIcon = document.querySelector(
+        ".burger-menu-button i"
+      );
+      const burgerMenu = document.querySelector(".burger-menu");
 
-   
-
-      const burgerMenuButton = document.querySelector('.burger-menu-button')
-      const burgerMenuButtonIcon = document.querySelector('.burger-menu-button i')
-      const burgerMenu = document.querySelector('.burger-menu')
-
-      burgerMenuButton.onclick = function(){
-        burgerMenu.classList.toggle('open')
-        const isOpen = burgerMenu.classList.contains('open')
-        burgerMenuButtonIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
-      }
-
+      burgerMenuButton.onclick = function () {
+        burgerMenu.classList.toggle("open");
+        const isOpen = burgerMenu.classList.contains("open");
+        burgerMenuButtonIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
     </script>
-
   </body>
 </html>
