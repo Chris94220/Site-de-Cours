@@ -271,6 +271,7 @@ h2 {
 
 label {
   margin-bottom: 10px;
+  
 }
 
 input {
@@ -278,7 +279,9 @@ input {
   padding: 5px;
   outline: 0;
   border: 1px black;
+  
 }
+
 
 input:focus {
   border: 1px solid rgb(0, 0, 0);
@@ -293,17 +296,26 @@ input[type="submit"] {
 
 input:hover{
   background-color: rgba(128, 128, 128, 0.178);
-  color:aquamarine;
+
   
 }
 
 ::placeholder{
-  color: rgb(5, 1, 1);
+  color: rgb(85, 84, 84);
+  font-weight: bold;
 
 }
 
 textarea {
   height: 200px;
+  
+  
+}
+
+textarea:hover{
+  background-color: rgba(238, 233, 233, 0.692);
+
+  
 }
 
 p {
@@ -345,7 +357,7 @@ footer {
   padding: 5px;
   color: black;
   background-color: rgba(214, 122, 9, 0.288);
-  border: dashed 2px black;
+  
 }
 
 /* responsive */
