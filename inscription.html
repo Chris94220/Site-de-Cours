@@ -59,8 +59,6 @@
     </header>
 
     <div class="content2">
-      
-
       <div class="formulaire">
         <form method="post" action="traitement.php">
           <h2>Je créer mon compte</h2>
@@ -71,10 +69,17 @@
             id="prenom"
             name="prenom"
             placeholder="Votre prenom"
+            required
           />
 
           <label for="nom">Entrez votre nom :</label>
-          <input type="text" id="nom" name="nom" placeholder="Votre nom" />
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Votre nom"
+            required
+          />
 
           <label for="adresse">Entrez votre adresse :</label>
           <input
@@ -82,6 +87,7 @@
             id="adresse"
             name="adresse"
             placeholder="Votre adresse"
+            required
           />
 
           <label for="email">Entrez votre mail :</label>
@@ -96,29 +102,28 @@
 
           <label for="anniversaire">
             Votre Date de naissance :
-            <input type="date" id="anniversaire" name="anniversaire"
+            <input type="date" id="anniversaire" name="anniversaire" required
           /></label>
 
           <label
             >Etes-vous?
 
-            <input type="radio" id="genre" name="genre" />
+            <input type="radio" id="genre" name="genre"  required/>
             <label for="homme">Un Homme</label>
 
-            <input type="radio" id="genre" name="genre" />
-            <label for="femme">Une Femme</label> </label>
-        
+            <input type="radio" id="genre" name="genre" required />
+            <label for="femme">Une Femme</label>
+          </label>
+
           <label id="satisfaction">Comment vous nous avez connue?</label>
           <select name="satisfaction" id="satisfaction">
-                   <option></option>
-                   <option>Internet</option>
-                   <option>Proche</option>
-                   <option>Publicité</option>
-                   <option>Bouche à oreille</option>
-                   <option>Milieu Professionnel</option>
-                   <option>Autre</option>
-                 
-
+            <option></option>
+            <option>Internet</option>
+            <option>Proche</option>
+            <option>Publicité</option>
+            <option>Bouche à oreille</option>
+            <option>Milieu Professionnel</option>
+            <option>Autre</option>
           </select>
 
           <label for="commentaire">Une Question?Une remarque?</label>
@@ -139,7 +144,9 @@
             <input type="checkbox" id="accept" name="accept"
           /></label>
 
-          <p>Vous-avez déjà un compte? <a href="connexion.html">se connecter</a></p>
+          <p>
+            Vous-avez déjà un compte? <a href="connexion.html">se connecter</a>
+          </p>
         </form>
       </div>
     </div>
