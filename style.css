@@ -593,6 +593,11 @@ footer {
   .burger-menu {
     display: block;
   }
+
+  .burger-menu.open {
+    height: 350px; /* Déjà défini */
+    width: 250px; /* Augmentez la largeur */
+  }
 }
 
 @media (max-width: 576px) {
