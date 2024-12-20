@@ -503,12 +503,73 @@ p {
 
  }
 
+/* pages nos cours */
+
+.cours {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les cartes */
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+
+.card img {
+  width: 100%; /* Les images remplissent complètement la largeur de la carte */
+  height: auto;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.card-footer {
+  padding: 10px 15px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.card-footer a:hover {
+  color: #0056b3;
+}
+
+
+
 /* footer */
 
 footer {
   text-align: center;
   font-weight: bold;
-  padding: 5px;
+  padding-bottom: 5px;
   color: black;
   background-color: rgba(214, 122, 9, 0.288);
   
